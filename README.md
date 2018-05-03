@@ -165,3 +165,5 @@ SELECT libgeo, e14ts1, e14ts6, e14ts10, e14ts20, e14ts50, e14ts100, e14ts200, e1
 FROM datasets.french_employment_base_etablissement_par_tranche_effectif
 where libgeo = 'Marzan'
 ```
+
+![group3](visualization/group3/2.png)
