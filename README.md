@@ -1,5 +1,4 @@
 # group3
-# GroupProject
 
 -- 1. Which town has the most companies?(employment opportunities)
 ```SQL
@@ -11,7 +10,7 @@ Order by e14tst DESC
 
 Answer: Paris
 ```
-group3/1.png
+git add group3/1.png
 
 -- 2. What is the average number of firms in a town?
 ```SQL
