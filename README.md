@@ -10,7 +10,6 @@ Order by e14tst DESC
 
 Answer: Paris
 ```
-![group3](visualization/group3/1.png)
 
 -- 2. What is the average number of firms in a town?
 ```SQL
@@ -144,6 +143,8 @@ SELECT libgeo, e14ts1, e14ts6, e14ts10, e14ts20, e14ts50, e14ts100, e14ts200, e1
 FROM datasets.french_employment_base_etablissement_par_tranche_effectif
 where libgeo = 'Paris'
 ```
+
+![group3](visualization/group3/1.png)
 
 -- In Marzan?
 ```SQL
