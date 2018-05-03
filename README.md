@@ -44,7 +44,9 @@ where libgeo = 'Paris'
 ```
 
 -- 6. What is the gender gap between Female and Male Net Salary/ Hr of Executives by Total Firms in Town? 
+
 SNHMFC14 : mean net salary per hour for feminin executive
+
 SNHMHC14 : mean net salary per hour for masculin executive
 
 -- What is the relationship between Total_Firms and Female Executive Salaries in Towns?
@@ -66,6 +68,7 @@ order by total_firms DESC
 ```
 
 -- 7. What is the gender gap between Executive Female and Male Net Salary/hour in Firms of 500 employees?
+
 E14TS500 : number of firms with more than 500 employees in the town
 
 -- What is the relationship between Big500_Firms and Female Executive Salaries in Towns?
@@ -87,7 +90,9 @@ order by Big500_firms DESC
 ```
 
 -- 8. What is the gender gap between Woman and Men Net Salary/Hr from 18-50 years?
+
 NHMF2614 : mean net salary per hour for women between 26-50 years old
+
 SNHMH2614 : mean net salary per hour for men between 26-50 years old
 
 -- What is the relationship between Total_Firms and Female (18-50) Net Mean Salaries in Towns?
@@ -114,23 +119,31 @@ Males:
 SELECT libgeo, snhmh1814, SNHMH2614, SNHMH5014
 from datasets.french_employment_net_salary_per_town_categories
 where libgeo = 'Paris'
-  
+```
+
+```SQL
 Female:
 SELECT libgeo, snhmf1814, SNHMf2614, SNHMf5014 
 from datasets.french_employment_net_salary_per_town_categories
 where libgeo = 'Paris'
+```
 
+```SQL
 In a much smaller city(48 firms, Marzan)?
 Male:
 SELECT libgeo, snhmh1814, SNHMH2614, SNHMH5014
 from datasets.french_employment_net_salary_per_town_categories
 where libgeo = 'Marzan'
+```
 
+```SQL
 Female:
 SELECT libgeo, snhmf1814, SNHMf2614, SNHMf5014 
 from datasets.french_employment_net_salary_per_town_categories
 where libgeo = 'Marzan'
+```
 
+```SQL
 Both: 
 SELECT libgeo, snhmf1814, SNHMf2614, SNHMf5014, snhmh1814, SNHMH2614, SNHMH5014
 from datasets.french_employment_net_salary_per_town_categories
