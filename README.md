@@ -130,8 +130,9 @@ where libgeo = 'Paris'
 
 ![group3](visualization/group3/3.png)
 
+
+-- In a much smaller city(48 firms, Marzan)?
 ```SQL
-In a much smaller city(48 firms, Marzan)?
 Male:
 SELECT libgeo, snhmh1814, SNHMH2614, SNHMH5014
 from datasets.french_employment_net_salary_per_town_categories
