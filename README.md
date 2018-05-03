@@ -152,6 +152,10 @@ from datasets.french_employment_net_salary_per_town_categories
 where libgeo = 'Marzan'
 ```  
 
+![group3](visualization/group3/4.png)
+
+![group3](visualization/group3/5.png)
+
 -- 10.What is the breakdown of small to large firms in the town with the most firms (Paris)?
 ```SQL
 SELECT libgeo, e14ts1, e14ts6, e14ts10, e14ts20, e14ts50, e14ts100, e14ts200, e14ts500
