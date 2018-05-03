@@ -10,7 +10,7 @@ FROM datasets.french_employment_base_etablissement_par_tranche_effectif
 Order by e14tst DESC
 
 Answer: Paris
-```
+```group3/1.png
 
 -- 2. What is the average number of firms in a town?
 ```SQL
