@@ -128,6 +128,8 @@ from datasets.french_employment_net_salary_per_town_categories
 where libgeo = 'Paris'
 ```
 
+![group3](visualization/group3/3.png)
+
 ```SQL
 In a much smaller city(48 firms, Marzan)?
 Male:
