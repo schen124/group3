@@ -10,7 +10,7 @@ Order by e14tst DESC
 
 Answer: Paris
 ```
-git add group3/1.png
+![group3](visualization/group3/1.png)
 
 -- 2. What is the average number of firms in a town?
 ```SQL
