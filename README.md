@@ -94,16 +94,12 @@ FROM datasets.french_employment_base_etablissement_par_tranche_effectif
 where libgeo = 'Paris'
 ```
 
-![group3](visualization/group3/1.png)
-
 -- In Marzan?
 ```SQL
 SELECT libgeo, e14ts1, e14ts6, e14ts10, e14ts20, e14ts50, e14ts100, e14ts200, e14ts500
 FROM datasets.french_employment_base_etablissement_par_tranche_effectif
 where libgeo = 'Marzan'
 ```
-  
-![group3](visualization/group3/2.png)
 
 -- 8. What is the gender gap between Female and Male Net Salary/ Hr of Executives by Total Firms in Town? 
 
