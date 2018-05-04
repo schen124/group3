@@ -173,4 +173,4 @@ FROM datasets.french_employment_base_etablissement_par_tranche_effectif firms
 JOIN datasets.french_employment_net_salary_per_town_categories salary
 ON firms.libgeo = salary.libgeo
 order by total_firms DESC
-```
+```  
